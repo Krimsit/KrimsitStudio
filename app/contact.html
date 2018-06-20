@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KrimStud</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/@media.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body id="ishome">
+	<header>
+		<div class="logo">
+			<a href="#"><img class="graficlogo" src="img/logo.png" alt="Logo"></a>
+		</div>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">HOME</a>
+				<a href="projects.html">PROJECTS</a>
+				<a href="contact.html">CONTACT</a>
+				<a href="about.html">ABOUT</a>
+				<a href="services.html">SERVICES</a>
+				<a href="location.html">LOCATION</a>
+				<a id="menu" href="#" class="icon">&#9776;</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<form class="form" method="POST" action="/send">
+			<p><input type="text" name="name" class="feedback-input" placeholder="Name" id="name"></p>
+			<p><input type="email" name="email" class="feedback-input" placeholder="E-mail" id="email"></p>
+			<p><textarea name="text" class="comment feedback-input" placeholder="Message" id="text"></textarea></p>
+			<input type="submit" value="Submit" class="button-submit" name="submit" id="submit">
+			<div class="ease"></div>
+		</form>
+	</main>
+	<footer class="footer">
+		<nav>
+			<a class="footer-main" href="index.html">HOME</a>
+			<a class="footer-main" href="projects.html">PROJECTS</a>
+			<a class="footer-main" href="contact.html">CONTACT</a>
+			<a class="footer-main" href="about.html">ABOUT</a>
+			<a class="footer-main" href="services.html">SERVICES</a>
+			<a class="footer-main" href="location.html">LOCATION</a>
+		</nav>
+		<div class="social">
+			<a href="#"><img class="social__img" src="img/footer/em.png" alt="E-mail"></a>
+			<a href="#"><img class="social__img" src="img/footer/face.png" alt="E-mail"></a>
+			<a href="#"><img class="social__img" src="img/footer/goo.png" alt="E-mail"></a>
+			<a href="#"><img class="social__img" src="img/footer/inst.png" alt="E-mail"></a>
+		</div>
+		<p class="copyright">&#9400;AndrejSubbotin 2018</p>
+	</footer>
+</body>
+</html>

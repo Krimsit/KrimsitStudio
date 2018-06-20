@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {
+    display: none; }
+  .topnav a.icon {
+    float: right;
+    max-width: -17px;
+    display: block;
+    color: #000; }
+  nav {
+    width: 100%; }
+  .topnav.responsive {
+    position: relative; }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .topnav.responsive a {
+    loat: none;
+    display: block;
+    ext-align: left; }
+  .advantages__item {
+    width: 45%; }
+  .gallery .photo__item {
+    width: 45%;
+    margin-left: 10px; } }
+
+@media screen and (max-width: 420px) {
+  .advantages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .advantages__item {
+    width: 100%; }
+  .projects {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .projects .gallery {
+      width: auto;
+      margin: auto; }
+      .projects .gallery .photo__item {
+        width: 70%;
+        margin: 0 auto; }
+  .services {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center; }
+    .services .services__container {
+      grid-template-columns: auto; } }
